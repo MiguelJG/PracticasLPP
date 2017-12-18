@@ -1,5 +1,4 @@
-# Nutrientes
-
+# LPP Assignements
 Assignements for LPP (Lenguajes y paradigmas de programación)
 In this directory , you'll find the files of multiple assignemets.
 
