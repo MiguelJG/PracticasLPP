@@ -1,0 +1,11 @@
+task :default => :tu
+
+desc "Pruebas unitarias de la clase Calculadora_IG"
+task :tu do
+  sh "ruby -I. test/tc_Calculadora_IG.rb"
+end
+
+desc "Ejecutar solo las pruebas simples"
+task :simple do
+  sh "ruby -I. test/tc_Calculadora_IG.rb -n /simple/"
+end
